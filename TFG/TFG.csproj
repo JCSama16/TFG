@@ -247,5 +247,14 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-play-button-icons-on-transparent-backdrop-free-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\458574.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button-309039_960_720.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

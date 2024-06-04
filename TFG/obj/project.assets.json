@@ -3249,24 +3249,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tecnicos\\.nuget\\packages\\": {},
+    "C:\\Users\\Practicas1\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tecnicos\\source\\repos\\TFG2\\TFG\\TFG.csproj",
+      "projectUniqueName": "C:\\Users\\Practicas1\\Source\\Repos\\TFG\\TFG\\TFG.csproj",
       "projectName": "TFG",
-      "projectPath": "C:\\Users\\Tecnicos\\source\\repos\\TFG2\\TFG\\TFG.csproj",
-      "packagesPath": "C:\\Users\\Tecnicos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tecnicos\\source\\repos\\TFG2\\TFG\\obj\\",
+      "projectPath": "C:\\Users\\Practicas1\\Source\\Repos\\TFG\\TFG\\TFG.csproj",
+      "packagesPath": "C:\\Users\\Practicas1\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Practicas1\\Source\\Repos\\TFG\\TFG\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tecnicos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Practicas1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3274,6 +3275,7 @@
         "net472"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },

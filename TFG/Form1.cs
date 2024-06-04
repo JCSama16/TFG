@@ -46,7 +46,7 @@ namespace TFG
             _reproductor.ConfigureVideoView(Reproductor);
 
             // Opcional: Reproduce un video al cargar la aplicación
-            _reproductor.PlayVideo("C:\\Users\\Tecnicos\\Videos\\TFG\\JOSE REY - BÉSAME - JOSE REY OFICIAL.mp4");
+            //_reproductor.PlayVideo("C:\\Users\\Tecnicos\\Videos\\TFG\\JOSE REY - BÉSAME - JOSE REY OFICIAL.mp4");
 
             InitializeVideoView();
             SetupButtons();
