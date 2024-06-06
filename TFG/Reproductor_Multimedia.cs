@@ -13,6 +13,7 @@ namespace TFG
     {
         private LibVLC _libVLC;
         private LibVLCSharp.Shared.MediaPlayer _mediaPlayer;
+        private VideoView _videoView;
 
         public Reproductor_Multimedia()
         {
@@ -24,21 +25,35 @@ namespace TFG
 
         public void ConfigureVideoView(VideoView videoView)
         {
-            videoView.MediaPlayer = _mediaPlayer;
+            _videoView = videoView;
+            _videoView.MediaPlayer = _mediaPlayer;
+            Console.WriteLine("VideoView configurado con MediaPlayer.");
+        }
+
+        public LibVLCSharp.Shared.MediaPlayer GetMediaPlayer()
+        {
+            return _mediaPlayer;
         }
 
         public void PlayVideo(string videoPath)
         {
             var media = new Media(_libVLC, new Uri(videoPath));
-            _mediaPlayer.Play(media);
+            if (_mediaPlayer.Play(media))
+            {
+                Console.WriteLine("Reproducción iniciada: " + videoPath);
+            }
+            else
+            {
+                Console.WriteLine("Error al iniciar la reproducción: " + videoPath);
+            }
+
         }
 
         public void PauseVideo()
         {
-            if (_mediaPlayer.IsPlaying)
-            {
-                _mediaPlayer.Pause();
-            }
+            
+            _mediaPlayer.Pause();
+            
         }
 
         public void StopVideo()

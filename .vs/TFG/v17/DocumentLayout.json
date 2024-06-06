@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Practicas1\\source\\repos\\TFG\\",
+  "WorkspaceRootPath": "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|C:\\Users\\Practicas1\\source\\repos\\TFG\\TFG\\Reproductor_Multimedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|solutionrelative:TFG\\Reproductor_Multimedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|C:\\Users\\Practicas1\\source\\repos\\TFG\\TFG\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|solutionrelative:TFG\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|C:\\Users\\Practicas1\\source\\repos\\TFG\\TFG\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|solutionrelative:TFG\\Form1.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|c:\\users\\practicas1\\source\\repos\\tfg\\tfg\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|c:\\users\\tecnicos\\source\\repos\\tfg3\\tfg\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|solutionrelative:tfg\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|C:\\Users\\Practicas1\\source\\repos\\TFG\\TFG\\VideoInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|solutionrelative:TFG\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|C:\\Users\\Tecnicos\\source\\repos\\TFG3\\tfg\\reproductor_multimedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|solutionrelative:tfg\\reproductor_multimedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\VideoInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{17E0D583-B2A9-4193-8A7C-627AAA7273E1}|TFG\\TFG.csproj|solutionrelative:TFG\\VideoInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,24 +38,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Practicas1\\source\\repos\\TFG\\TFG\\Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "TFG\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\Practicas1\\source\\repos\\TFG\\TFG\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\Form1.Designer.cs",
               "RelativeToolTip": "TFG\\Form1.Designer.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAYwCEAAABEAAAA",
+              "ViewState": "AQIAAJkBAAAAAAAAAADgv7IBAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-01T17:02:39.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Practicas1\\source\\repos\\TFG\\TFG\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\Form1.cs",
               "RelativeDocumentMoniker": "TFG\\Form1.cs",
-              "ToolTip": "C:\\Users\\Practicas1\\source\\repos\\TFG\\TFG\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "TFG\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-01T17:18:50.038Z",
@@ -63,26 +63,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Reproductor_Multimedia.cs",
-              "DocumentMoniker": "C:\\Users\\Practicas1\\source\\repos\\TFG\\TFG\\Reproductor_Multimedia.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\Reproductor_Multimedia.cs",
               "RelativeDocumentMoniker": "TFG\\Reproductor_Multimedia.cs",
-              "ToolTip": "C:\\Users\\Practicas1\\source\\repos\\TFG\\TFG\\Reproductor_Multimedia.cs",
+              "ToolTip": "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\Reproductor_Multimedia.cs",
               "RelativeToolTip": "TFG\\Reproductor_Multimedia.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAlAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAmwCwAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-01T21:52:26.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Practicas1\\source\\repos\\TFG\\TFG\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\Form1.cs",
               "RelativeDocumentMoniker": "TFG\\Form1.cs",
-              "ToolTip": "C:\\Users\\Practicas1\\source\\repos\\TFG\\TFG\\Form1.cs",
+              "ToolTip": "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\Form1.cs",
               "RelativeToolTip": "TFG\\Form1.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAmwC0AAAA5AAAA",
+              "ViewState": "AQIAABUBAAAAAAAAAAAAADQBAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T18:08:13.383Z",
               "EditorCaption": ""
@@ -91,9 +91,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "VideoInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Practicas1\\source\\repos\\TFG\\TFG\\VideoInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\VideoInfo.cs",
               "RelativeDocumentMoniker": "TFG\\VideoInfo.cs",
-              "ToolTip": "C:\\Users\\Practicas1\\source\\repos\\TFG\\TFG\\VideoInfo.cs",
+              "ToolTip": "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\VideoInfo.cs",
               "RelativeToolTip": "TFG\\VideoInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

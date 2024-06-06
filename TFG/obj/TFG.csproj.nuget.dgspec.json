@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Practicas1\\Source\\Repos\\TFG\\TFG\\TFG.csproj": {}
+    "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\TFG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Practicas1\\Source\\Repos\\TFG\\TFG\\TFG.csproj": {
+    "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\TFG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Practicas1\\Source\\Repos\\TFG\\TFG\\TFG.csproj",
+        "projectUniqueName": "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\TFG.csproj",
         "projectName": "TFG",
-        "projectPath": "C:\\Users\\Practicas1\\Source\\Repos\\TFG\\TFG\\TFG.csproj",
-        "packagesPath": "C:\\Users\\Practicas1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Practicas1\\Source\\Repos\\TFG\\TFG\\obj\\",
+        "projectPath": "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\TFG.csproj",
+        "packagesPath": "C:\\Users\\Tecnicos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tecnicos\\source\\repos\\TFG3\\TFG\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Practicas1\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Users\\Tecnicos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +26,6 @@
           "net472"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },

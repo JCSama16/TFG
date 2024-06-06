@@ -12,6 +12,8 @@ using YoutubeExplode.Videos.Streams;
 using MySql.Data.MySqlClient;
 using System.Data;
 using LibVLCSharp.WinForms;
+using LibVLCSharp.Shared;
+using System.Drawing;
 
 namespace TFG
 {
@@ -45,15 +47,18 @@ namespace TFG
             // Configura VideoView
             _reproductor.ConfigureVideoView(Reproductor);
 
+            Reproductor.MediaPlayer = _reproductor.GetMediaPlayer();
+
             // Opcional: Reproduce un video al cargar la aplicación
             //_reproductor.PlayVideo("C:\\Users\\Tecnicos\\Videos\\TFG\\JOSE REY - BÉSAME - JOSE REY OFICIAL.mp4");
 
-            InitializeVideoView();
+            //InitializeVideoView();
             SetupButtons();
 
 
             tabControl1.SelectedIndexChanged += new EventHandler(tabControl1_SelectedIndexChanged);
             CombFiltro.SelectedIndexChanged += new EventHandler(CombFiltro_SelectedIndexChanged);
+
         }
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
@@ -234,7 +239,7 @@ namespace TFG
             }
         }
 
-        private void InitializeVideoView()
+        /*private void InitializeVideoView()
         {
             _videoView = new VideoView
             {
@@ -242,7 +247,7 @@ namespace TFG
             };
             tabPage4.Controls.Add(_videoView);
             _reproductor.ConfigureVideoView(_videoView);
-        }
+        }*/
 
         private void SetupButtons()
         {
@@ -278,6 +283,29 @@ namespace TFG
         {
             // Libera recursos
             _reproductor.Dispose();
+        }
+
+        private void DataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Verifica quela columna y la fila son validas.
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                // Obtiene la ruta del archivo de la columna "Ubicación"
+                var filePath = dataGridView1.Rows[e.RowIndex].Cells["Ubicación"].Value?.ToString();
+
+                if (!string.IsNullOrEmpty(filePath) && File.Exists(filePath))
+                {
+                    // Cambia a la pestaña del reproductor
+                    tabControl1.SelectedTab = tabPage4;
+
+                    // Reproduce el video
+                    _reproductor.PlayVideo(filePath);
+                }
+                else
+                {
+                    MessageBox.Show("El archivo de video no existe o la ruta es inválida.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
     }
 
